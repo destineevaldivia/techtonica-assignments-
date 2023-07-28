@@ -2,18 +2,30 @@ body {
     background-color: rgb(181, 181, 227);
     font-family: Radley, Georgia, 'Times New Roman', Times, serif;
     position: relative;
-  }
-  h1 {
-    color: lavenderblush;
-    position: relative;
-  }
-  p {
-    color: black ;
-  }
-  ul {
-    background-color: lavenderblush;
   
   }
+ #parent {
+  display: flex;
+ }
+
+ h1 {
+  color: lavenderblush;
+ }
+ #bodyParagragh{
+  background-color: lavenderblush;
+  width: 100%;
+  padding: 3px;
+  border-color: black;
+  border-width: 2px;
+ }
+ button {
+  padding: 3px;
+ }
+ ul {
+  text-align: center;
+ }
+
+
 
   /*media query */
   #mainpicture {
