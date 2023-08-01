@@ -13,3 +13,34 @@ let otherRecipesEls = document.createElement("img")
 
     document.body.appendChild("MoreRecipesTitle");
     
+//button
+// let bodyParagraph = document.getElementsByTagName('body')
+
+// document.addEventListener("click", function() {
+//     let userInput = prompt("What's your favorite color", "type basic color here");
+
+//     let changeBackGroundColor = function(input) {
+//       document.body.style.backgroundColor = input;
+//     };
+  
+//     changeBackGroundColor(userInput);
+//   });
+
+  //
+  let bodyParagraph = document.getElementsByTagName('body');
+document.addEventListener("click", function() {
+  let userInput = prompt("What's your favorite color?", "type here");
+  let userInput2 = prompt("What text color do you want?", "type here");
+  let changeBackGroundColor = function(input) {
+    document.body.style.backgroundColor = input;
+  }
+  let changeTextColor = function(input) {
+    document.body.style.color = input;
+  }
+  changeBackGroundColor(userInput);
+  changeTextColor(userInput2);
+});
+    
+
+
+

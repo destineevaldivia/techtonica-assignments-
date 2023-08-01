@@ -26,14 +26,13 @@ body {
  }
 
 
-
   /*media query */
   #mainpicture {
     width: 32%;
   }
   @media (min-width: 600px) {
     p {
-      font-size: 1rem;
+      font-size: 1.25rem;
     }
   }
   
