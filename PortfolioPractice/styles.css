@@ -88,7 +88,7 @@ section {
 }
 .socials-container {
     max-block-size: 15%;
-    padding: 25px;px;
+    padding: 25px;
     
 }
 .icon {
@@ -108,9 +108,15 @@ max-width: 5%;
     border: none;
     margin: 3%;
 }
-#contactForm {
+.contact-form-container {
     color:white;
+    margin: 40px;
 }
-@media (min-height: 500px), (min-width: 580px) {
+h3 {
+    color: rgb(255, 0, 126);
+    padding: 10px;
     
+}
+@media screen and (max-width:1400px) {
+
  }

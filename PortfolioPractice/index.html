@@ -10,9 +10,9 @@
     <nav id="nav">
         <div>
             <ul class="nav-links">
-                <li><a href="#techstack">Tech Stack </a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#contact">Contact Me</a></li>
+                <li><a href="#techstack-section">Tech Stack </a></li>
+                <li><a href="#experience-section">Experience</a></li>
+                <li><a href="#contactForm">Contact Me</a></li>
 
             </ul>
         </div>
@@ -48,10 +48,21 @@
             <li>00/00/00 </li>
             <li>00/00/00 </li>
     </section>
-    <section id="contactForm">
-        <form>
-            <label>contact me </label>
-            <input>
+    <section class="contact-form-container">
+        <h3>Contact me</h3>
+        <form id="contact-form">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname">
+            <label for="email">email:</label><br>
+            <input type="email" id="email" name="email">
+            <label for="phone">phone:</label><br>
+            <input type="number" id="phone" name="phone">
+            <label for="street">Street Number:</label><br>
+            <input type="number" id="street" name="street">
+            <label for="streetName">Street name:</label><br>
+            <input type="text" id="streetName" name="streetName">
         </form>
 
     </section>
