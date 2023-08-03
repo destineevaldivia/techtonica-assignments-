@@ -70,16 +70,20 @@ section {
 #name {
     color: rgb(255, 0, 126);
 }
+#profilepic {
+    height: 250px;
+    
+}
 #image {
-    height: 80vh;
-    justify-content: right;
+    height: 300px;
+    justify-content: left;
     gap: 5rem;
+
 
 }
 .section_image-container {
-    display: flex;
-    height: 400px;
-    width: 400px;
+    height: 250px;
+    width: 250px;
     margin: auto;
 }
 .socials-container {
@@ -88,15 +92,25 @@ section {
     
 }
 .icon {
-max-width: 8%;
+max-width: 5%;
 }
 #techstack-section {
     color: white;
+    height: 150px;
+    max-width: 30%;
+    margin:3%;
+    
 }
 #experience-section {
     color: white;
+    height:150px;
+    max-width: 30%;
+    border: none;
+    margin: 3%;
 }
 #contactForm {
     color:white;
 }
-
+@media (min-height: 500px), (min-width: 580px) {
+    
+ }
