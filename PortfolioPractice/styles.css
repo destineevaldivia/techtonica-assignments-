@@ -12,9 +12,11 @@ html {
 }
 p {
     color: white;
+    max-block-size: 20%;
 }
 h1 {
     color: white;
+    max-block-size: 10%;
 }
 /* transition */
 a, .btn {
@@ -59,14 +61,17 @@ section {
     align-self: center;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: large;
-    display: flex;
+    padding: 10px;
+    height: 150px;
+    border-style:ridge;
+    
+    
 }
 #name {
     color: rgb(255, 0, 126);
 }
 #image {
     height: 80vh;
-    display: flex;
     justify-content: right;
     gap: 5rem;
 
@@ -77,24 +82,21 @@ section {
     width: 400px;
     margin: auto;
 }
-#socials-container {
-    display: flex;
+.socials-container {
+    max-block-size: 15%;
+    padding: 25px;px;
+    
 }
 .icon {
 max-width: 8%;
-display: flex;
 }
-
-
-/*button*/
-    /*connecton*/
-
-/*techstack*/
-    /*forms? language bubble*/
-
-/*experience*/
-    /*list of items
-    projects, tech experience*/
-
-/*form*/
+#techstack-section {
+    color: white;
+}
+#experience-section {
+    color: white;
+}
+#contactForm {
+    color:white;
+}
 
