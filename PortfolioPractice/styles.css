@@ -1,0 +1,32 @@
+body{
+    background-color: black;
+}
+h1{
+    color: white;
+}
+#intro{
+    color: white;
+    text-align:left;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#name{
+    color: rgb(255, 0, 126);
+}
+#image{
+    height: 300px;
+    text-align:right;
+
+}
+
+/*button*/
+    /*connecton*/
+
+/*techstack*/
+    /*forms? language bubble*/
+
+/*experience*/
+    /*list of items
+    projects, tech experience*/
+
+/*form*/
+
