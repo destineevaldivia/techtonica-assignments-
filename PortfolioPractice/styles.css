@@ -1,18 +1,66 @@
-body{
-    background-color: black;
+/*general styling */
+* {
+    margin: 0;
+    padding: 0;
 }
-h1{
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(0, 0, 0, 0.981);
+}
+html {
+    scroll-behavior:smooth;
+}
+p {
     color: white;
 }
-#intro{
+h1 {
+    color: white;
+}
+/* transition */
+a, .btn {
+        transition: all 300ms ease;
+}
+/*nav*/
+nav, .nav-links {
+    display:flex;
+}
+nav{
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
+}
+.nav-links {
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.5rem;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color:rgb(255, 0, 126);
+}
+
+/* sections */
+section {
+    padding-top: 4vh;
+    height: 96vh;
+    margin: 0 10rem;
+    min-height: fit-content;
+}
+.section-container {
+    display: flex;
+}
+#intro {
     color: white;
     text-align:left;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-#name{
+#name {
     color: rgb(255, 0, 126);
 }
-#image{
+#image {
     height: 300px;
     text-align:right;
 
