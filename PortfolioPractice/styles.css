@@ -96,17 +96,20 @@ max-width: 5%;
 }
 #techstack-section {
     color: white;
+    border-style: solid;
     height: 150px;
-    max-width: 30%;
+    max-width: 90%;
     margin:3%;
     
 }
 #experience-section {
     color: white;
     height:150px;
-    max-width: 30%;
+    max-width: 90%;
     border: none;
     margin: 3%;
+    border-style: solid;
+
 }
 .contact-form-container {
     color:white;
@@ -124,6 +127,7 @@ input[type=number] {
 h3 {
     color: rgb(255, 0, 126);
     padding: 10px;
+    
     
 }
 @media  {
