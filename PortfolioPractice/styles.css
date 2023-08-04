@@ -100,6 +100,7 @@ max-width: 5%;
     height: 150px;
     max-width: 90%;
     margin:3%;
+    text-align: center;
     
 }
 #experience-section {
@@ -109,6 +110,7 @@ max-width: 5%;
     border: none;
     margin: 3%;
     border-style: solid;
+    text-align: center;
 
 }
 .contact-form-container {
@@ -116,14 +118,30 @@ max-width: 5%;
     margin: 40px;
 }
 #contact-form {
-    padding: 5px;
+    text-align: center;
 }
 input[type=text],select {
     width:30%;
+    border-radius: 4px;
 }
 input[type=number] {
-    width: 15%;
+    width:30%;
+    border-radius: 4px;
 }
+input[type=button],input[type=submit]{
+    width: 75%;
+    background-color:rgb(255, 0, 126);
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+input[type=submit]:focus {
+    background-color: light rgb(104, 212, 202);
+}
+
 h3 {
     color: rgb(255, 0, 126);
     padding: 10px;
