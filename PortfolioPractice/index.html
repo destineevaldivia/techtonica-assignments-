@@ -44,30 +44,32 @@
     <section id="experience-section">
         <h3>Experience</h3>
         <ul>
-            <li>00/00/00  </li>
-            <li>00/00/00 </li>
-            <li>00/00/00 </li>
+            <li>00/00/00 - Project Name   </li>
+            <li>00/00/00 - Impact </li>
+            <li>00/00/00 - Display collaboration and leadership </li>
     </section>
     <section class="contact-form-container">
         <h3>Contact me</h3>
         <form id="contact-form">
+         <div class="error"></div>
             <label for="fname">First name:</label>
-            <input type="text" id="fname" name="fname" placeholder="Type your first name">
+            <input type="text" id="fname" name="fname" placeholder="Type your first name"/>
 
             <label for="lname">Last name:</label>
-            <input type="text" id="lname" name="lname" placeholder="Type your last name"><br>
-            
+            <input type="text" id="lname" name="lname" placeholder="Type your last name"/><br>
+         
+         <div class="error"></div>  
             <label for="email">Email:</label>
-            <input type="text" id="email" name="email" placeholder="Type your email address">
+            <input type="text" id="email" name="email" placeholder="example123@gmail.com" required/>
 
             <label for="phone">Phone:</label>
-            <input type="number" id="phone" name="phone" placeholder="Type your phone number"><br>
+            <input type="number" id="phone" name="phone" placeholder="Type your phone number"/><br>
 
             <label for="address">Street Address:</label>
-            <input type="text" id="address" name="address" placeholder="Type your street address">
+            <input type="text" id="address" name="address" placeholder="Type your street address"/>
             
             <label for="stateyoulive">State:</label>
-            <select id="stateyoulive" placeholder="Select state for your address">
+            <select id="stateyoulive" placeholder="Select the state"/>
                 <option value="California">California</option>
                 <option value="Washington">Washington</option>
                 <option value="Oregon">Oregon</option>
@@ -81,9 +83,9 @@
                 <option value="South Carolina">South Carolina</option> 
             
             <label for="zip">Zip Code:</label>
-            <input type="number" id="zip" name="zip" placeholder="Type your zipcode"><br>
+            <input type="number" id="zip" name="zip" placeholder="Type your zipcode"/><br>
 
-            <input type="submit" value="Submit">
+            <button type="submit" id="submit">Submit </button>
 
         </form>
 
