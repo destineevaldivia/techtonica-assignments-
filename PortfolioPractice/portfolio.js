@@ -26,11 +26,11 @@ const firstdivError = document.getElementsByClassName("error")[0];
 //validate email
 const secErrorDiv = document.getElementsByClassName("error")[1];
 const correctPattern =  /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
-if(!correctPattern.test(email)){
-    secErrorDiv.innerText = "Please enter a valid email"
-} else{
-    secErrorDiv.innerText = "Thank You!"
-}
+    if(!correctPattern.test(email)){
+        secErrorDiv.innerText = "Please enter a valid email"
+    } else{
+        secErrorDiv.innerText = "Thank You!"
+    }
 
 
     //console.log() to make sure you're grabbing the thing you want
