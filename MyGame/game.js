@@ -1,41 +1,22 @@
-//grab all Displays
+//Grab display titles
+let displayYourChoice = document.getElementById("your-choice");
 let displayComputerChoice = document.getElementById('computer-choice');
-let displayYourChoice = document.getElementById('your-choice');
-let displayResults = document.getElementById('result');
-//grab all possible choices
-let possibleChoices = document.getElementsByClassName('button');
-// grab each button choice
-let rockBtn = document.getElementById('rock');
-let paperBtn = document.getElementById('paper');
-let scissorsBtn = document.getElementById('scissors');
+let displayResults = document.getElementById("result");
+//grab all buttons
+let displayBtns = document.querySelectorAll('.buttons');
+//Add Event listener to the buttons and manipulate
+let yourChoice;
 
-//add event listeners
-rockBtn.addEventListener("click", (event) => {
-    
-});
+displayBtns.forEach(displayBtns => displayBtns.addEventListener('click', (event) => {
+    yourChoice = event.target.id
+    displayYourChoice.innerHTML = yourChoice;
+}));
 
-paperBtn.addEventListener("click", (event) => {
-
-});
-
-scissorsBtn.addEventListener("click", (event) => {
-
-});
-
-
-
-
-//possibleChoices.addEventListener("click", (event) => {
-    
-    
-    //yourChoice = display your choice
-    //generate computer choice
-// })
-
+//generate computer choice
 function generateComputerChoice() {
-    // let randomNumber = Math.floor(Math.random() * 3)//or you can use possible choices
+    let randomNumber = Math.floor(Math.random() * 3);
 }
-
+generateComputerChoice();
 
  //results function
 

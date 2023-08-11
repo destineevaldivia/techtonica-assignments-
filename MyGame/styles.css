@@ -1,10 +1,20 @@
 * {
     background-color: azure;
     font-family: fantasy;
+
 }
 
 h1 {
     color: aliceblue; 
     background-color: rgb(45, 48, 218);
-    text-align: center;
+}
+
+span {
+    color: blue;
+}
+
+button {
+    background-color: blue;
+    color: white;
+
 }
